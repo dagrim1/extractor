@@ -25,7 +25,8 @@ public class GnomadQuerier extends ExacQuerier {
         VAR_IDS = VAR_IDS_GNOMAD;
         // = VAR_INDICES_GNOMAD;
         //OUTPUT_VAR_HEADERS = OUTPUT_VAR_HEADERS_GNOMAD;        
-        search_url =  "http://gnomad.broadinstitute.org/awesome?query=";
+        //search_url =  "http://gnomad.broadinstitute.org/awesome?query=";
+        search_url =  "http://gnomad-old.broadinstitute.org/awesome?query=";        
     }
     
      public HashMap<Integer, double[]> queryCoverage(String searchTerm){        
